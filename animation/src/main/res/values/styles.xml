@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AnimationTextView">
+        <item name="android:background">@color/black</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+</resources>

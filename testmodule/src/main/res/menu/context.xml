@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="删除" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="重命名" >
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <item
+                android:id="@+id/opera1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="操作1" />
+            <item
+                android:id="@+id/opera2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="操作2" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">imooc_touch_system</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_toush_system">ToushSystemActivity</string>
+</resources>

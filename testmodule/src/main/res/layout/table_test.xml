@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="1"
+    android:collapseColumns="0"
+
+    >
+
+    <!--
+    如果在TableLayout中直接加控件，那么控件和父容器等宽，
+    如果想要空间出现在同一行，那么这些控件外层要加TableRow,在TableRow中的控件，宽度默认都是wrap_content
+
+    -->
+    <Button android:text="计算器" />
+<EditText/>
+
+    <TableRow>
+
+        <Button android:text="777777777777" />
+
+        <Button android:text="8888888888888888" />
+
+        <Button android:text="9" />
+
+        <Button android:text="/" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:text="4" />
+
+        <Button android:text="5" />
+
+        <Button android:text="6" />
+
+        <Button android:text="*" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:text="1" />
+
+        <Button android:text="2" />
+
+        <Button android:text="3" />
+
+        <Button android:text="-" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:text="4" />
+
+        <Button android:text="5" />
+
+        <Button android:text="6" />
+
+        <Button android:text="*" />
+    </TableRow>
+
+
+</TableLayout>

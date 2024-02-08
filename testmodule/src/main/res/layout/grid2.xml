@@ -1,0 +1,21 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:columnCount="3">
+
+    <Button
+        android:text="Button 1"
+        android:layout_row="0"
+        android:layout_column="0"/>
+
+    <Button
+        android:text="Button 2"
+        android:layout_row="3"
+        android:layout_column="2"
+        />
+
+    <!-- More buttons and views with layout_row and layout_column attributes -->
+
+</GridLayout>

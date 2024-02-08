@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/id_iv_img"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/img01"
+                android:layout_height="150dp" />
+
+            <TextView
+                android:id="@+id/id_tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="这里怎么设置阴影大小"
+                android:layout_margin="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/id_tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="在 CardView 中，可以使用 cardElevation 属性来设置阴影的大小。该属性表示 CardView 投射在其底部的阴影的最大高度。你可以通过调整这个属性的值来改变阴影的大小。"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

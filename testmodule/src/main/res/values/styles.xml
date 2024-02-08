@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="translate_anim">
+    <item name="android:windowEnterAnimation">@anim/translate</item>
+</style>
+</resources>
